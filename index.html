@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adna's Portfolio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #fff0f6, #ffe6f2);
+      color: #4a2c3a;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(255, 182, 193, 0.3);
+      padding: 50px 60px;
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .left {
+      flex: 1;
+      min-width: 280px;
+      text-align: center;
+    }
+
+    .photo-placeholder {
+      width: 200px;
+      height: 200px;
+     background: url('https://github.com/amira335/amira335.github.io/blob/main/adna-photo.jpg.jpeg?raw=true') no-repeat center/cover;
+      border-radius: 50%;
+      border: 5px solid #ffc0cb;
+      margin: 0 auto 20px;
+      box-shadow: 0 6px 20px rgba(255, 182, 193, 0.4);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #b33059;
+      margin-bottom: 5px;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      color: #a64d6f;
+      margin-bottom: 30px;
+    }
+
+    .right {
+      flex: 2;
+      min-width: 280px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      font-size: 1.5rem;
+      color: #b33059;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #ffc0cb;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .about {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #7a4557;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .skills span {
+      background: #ffe6f2;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: 600;
+      color: #b33059;
+      box-shadow: 0 3px 6px rgba(179, 48, 89, 0.2);
+      font-size: 0.9rem;
+    }
+
+    .contact-info p {
+      margin: 8px 0;
+      font-size: 1rem;
+      color: #a64d6f;
+    }
+
+    .contact-info a {
+      color: #b33059;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: 0.3s;
+    }
+
+    .contact-info a:hover {
+      border-bottom: 1px solid #b33059;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 30px 20px;
+      }
+
+      .left, .right {
+        text-align: center;
+      }
+
+      .right {
+        padding-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <div class="photo-placeholder" aria-label="Profile photo placeholder"></div>
+      <h1>Adna</h1>
+      <p class="tagline">Creative Mobile App Developer</p>
+    </div>
+    <div class="right">
+      <div class="section">
+        <h2>About Me</h2>
+        <p class="about">
+          I'm a passionate mobile app developer who loves building beautiful, functional apps using Flutter. I enjoy creating smooth, modern user experiences and turning ideas into real digital products. Whether it's design or code — I bring elegance and intention to everything I build.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>UI/UX Design</span>
+          <span>Flutter</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Contact</h2>
+        <div class="contact-info">
+          <p>Instagram: <a href="https://instagram.com/amiirah___m" target="_blank">@amiirah___m</a></p>
+          <p>WhatsApp: <a href="https://wa.me/254757302782" target="_blank">0757302782</a></p>
+          <p>X (Twitter): <a href="https://x.com/AmiraMohamed" target="_blank">@AmiraMohamed</a></p>
+          <p>GitHub: <a href="https://github.com/amira335" target="_blank">github.com/amira335</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
